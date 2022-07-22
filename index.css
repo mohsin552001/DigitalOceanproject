@@ -1,0 +1,738 @@
+body {
+  margin: 0px;
+  font-family: Inter, sans-serif;
+}
+
+.container .topheader {
+  width: 100%;
+  height: 40px;
+  background-color: #0a0a79;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #c0c2d3;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .topheader .paragraph {
+  padding-left: 14%;
+}
+
+.container .topheader .unorderlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  padding-left: 380px;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+
+.container .belowheader {
+  height: 72px;
+  width: 100%;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .belowheader .logoimg {
+  padding-left: 255px;
+}
+
+.container .belowheader .MenuSection .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .belowheader .MenuSection .menu .li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  color: #4d5b7c;
+  padding: 8px 11px;
+  border-radius: 10px;
+}
+
+.container .belowheader .MenuSection .menu .li:hover {
+  color: blue;
+  background-color: #e6e6e6;
+}
+
+.container .belowheader .buttonSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .belowheader .buttonSection .login {
+  line-height: 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 18px;
+  background-color: white;
+  border: 0px solid;
+  outline: none;
+  color: #080b2d;
+  margin-left: 430px;
+  cursor: pointer;
+}
+
+.container .belowheader .buttonSection .login:hover {
+  color: blue;
+  background-color: #e6e6e6;
+}
+
+.container .belowheader .buttonSection .signup {
+  cursor: pointer;
+  background-color: #0069ff;
+  outline: none;
+  border: 0px solid;
+  line-height: 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 20px;
+  color: white;
+}
+
+.container .bluebox {
+  background-color: #0069ff;
+  height: 650px;
+  position: relative;
+}
+
+.container .bluebox .topleftimg {
+  position: absolute;
+  top: 100px;
+}
+
+.container .bluebox .toprightimg {
+  position: absolute;
+  right: 0px;
+  top: 100px;
+}
+
+.container .bluebox .bottomleftimg {
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+  width: 400px;
+}
+
+.container .bluebox .bottomrightimg {
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .bluebox .bottomrightimg .innerfirst {
+  position: absolute;
+  bottom: 0px;
+  left: -265px;
+}
+
+.container .bluebox .bottomrightimg .innersecondimg img {
+  height: 115px;
+}
+
+.container .bluebox .innerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  color: white;
+}
+
+.container .bluebox .innerText span {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.container .bluebox .innerText p {
+  font-weight: bold;
+}
+
+.container .bluebox .innerText .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.container .bluebox .innerText .buttons .firstbtn {
+  border: 0px solid;
+  height: 50px;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #0d0da7;
+  cursor: pointer;
+}
+
+.container .bluebox .innerText .buttons .firstbtn:hover {
+  background-color: #13136c;
+}
+
+.container .bluebox .innerText .buttons .secondbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  border: 0px solid;
+  background-color: white;
+  outline: none;
+  color: black;
+  gap: 10px;
+}
+
+.container .bluebox .innerText .buttons .secondbtn .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .bluebox .innerText .buttons .secondbtn .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.container .bluebox .innerText .buttons .secondbtn .img img {
+  border-radius: 25px;
+}
+
+.container .bluebox .innerText .buttons .thirdbtn {
+  border: 0px solid;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 230px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+
+.container .bluebox .innerText .buttons .thirdbtn .fa {
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.container .customerSection {
+  width: 100%;
+  height: 100%;
+}
+
+.container .customerSection .counterbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+
+.container .customerSection .counterbox .custumer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .counterbox .custumer h1 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 3rem;
+  color: #0069ff;
+}
+
+.container .customerSection .counterbox .custumer h3 {
+  margin: 0px;
+  color: #1d4988;
+}
+
+.container .customerSection .complexcitybox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .complexcitybox h1 {
+  font-size: 2.5rem;
+  color: #031b4e;
+}
+
+.container .customerSection .complexcitybox p {
+  color: #4d5b7c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0px;
+}
+
+.container .customerSection .complexcitybox span {
+  word-spacing: 15px;
+  color: #0069ff;
+  font-weight: bold;
+}
+
+.container .customerSection .Customersbox {
+  position: relative;
+}
+
+.container .customerSection .Customersbox #secondimg {
+  margin-top: 150px;
+  width: 100%;
+  height: 600px;
+  background-size: auto;
+  outline: none;
+  border: 0px solid;
+}
+
+.container .customerSection .Customersbox .Animatedsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .customerSection .Customersbox .Animatedsection h1 {
+  margin-top: 50px;
+}
+
+.container .customerSection .Customersbox .Animatedsection .firstanimatedbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.container .customerSection .Customersbox .Animatedsection .firstanimatedbox .imgs img {
+  border-radius: 10px;
+  outline: none;
+  border: 0px solid;
+}
+
+.container .customerSection .Customersbox .pricesSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 800px;
+}
+
+.container .customerSection .Customersbox .pricesSection .saverbox {
+  width: 50%;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .pricesSection .saverbox h1 {
+  font-size: 2.6rem;
+  color: #031b4e;
+}
+
+.container .customerSection .Customersbox .pricesSection .saverbox span {
+  color: #0069ff;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection {
+  width: 50%;
+  border: 1px solid;
+  position: relative;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .firstimg {
+  width: 293px;
+  height: 370px;
+  position: absolute;
+  display: none;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .secondimg {
+  width: 156px;
+  height: 158px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  display: none;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .thirdimg {
+  height: 459px;
+  width: 358px;
+  float: right;
+  display: none;
+  position: absolute;
+  top: 22%;
+  left: 55%;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines {
+  width: 528px;
+  height: 773px;
+  -webkit-box-shadow: 0px 0px 5px #7171ac;
+          box-shadow: 0px 0px 5px #7171ac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-top: 23px;
+  border-radius: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox {
+  width: 100%;
+  color: #d6dcea;
+  background-color: #0069ff;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox .cpubtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox .cpubtns .cpubutn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  outline: none;
+  border: 0px solid;
+  background-color: #0069ff;
+  color: white;
+  font-size: 16px;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox .cpubtns .cpubutn:hover {
+  background-color: #4c7efb;
+  cursor: pointer;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .prices .memory {
+  padding: 10px;
+  background-color: #eff2fb;
+  height: 40px;
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  color: #8f8f8f;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .prices .memoryprice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px;
+  outline: none;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: dotted;
+  border-color: #a9b3ca;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .prices .memoryprice .textimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.container .customerSection .Customersbox .journeySection {
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.container .customerSection .Customersbox .journeySection .bluejourney {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 93%;
+}
+
+.container .customerSection .Customersbox .journeySection .bluejourney .journey {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: start;
+  background-color: #0a0a88;
+  padding-left: 50px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.container .customerSection .Customersbox .journeySection .bluejourney .imgsplace {
+  width: 30%;
+  background-color: #0a0a88;
+  height: 250px;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.container .customerSection .Customersbox .journeySection .bluejourney .imgsplace img {
+  padding-top: 67px;
+  padding-left: 100px;
+}
+
+.container .customerSection .Customersbox .globalSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .customerSection .Customersbox .globalSection .community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .customerSection .Customersbox .globalSection .community h1 {
+  font-size: 2.5rem;
+  color: #031b4e;
+}
+
+.container .customerSection .Customersbox .globalSection .community p {
+  color: #5b6987;
+}
+
+.container .customerSection .Customersbox .globalSection .community .p {
+  margin-top: 0px;
+}
+
+.container .customerSection .Customersbox .globalSection .community span {
+  color: #0069ff;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+/*# sourceMappingURL=index.css.map */

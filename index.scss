@@ -1,0 +1,636 @@
+body {
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    ;
+}
+
+.container {
+    .topheader {
+
+        width: 100%;
+        height: 40px;
+        background-color: #0a0a79;
+        display: flex;
+        color: rgb(192, 194, 211);
+        display: flex;
+        align-items: center;
+
+        .paragraph {
+            padding-left: 14%;
+
+        }
+
+        .unorderlist {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding-left: 380px;
+            gap: 10px;
+            align-items: center;
+            align-items: center;
+        }
+    }
+
+    .belowheader {
+
+        height: 72px;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        .logoimg {
+            padding-left: 255px;
+        }
+
+        .MenuSection {
+            .menu {
+                display: flex;
+                flex-direction: row;
+
+                .li {
+                    list-style: none;
+                    display: flex;
+                    gap: 5px;
+                    color: rgb(77, 91, 124);
+                    padding: 8px 11px;
+                    border-radius: 10px;
+
+                    &:hover {
+
+                        color: blue;
+                        background-color: rgb(230, 230, 230);
+                    }
+                }
+            }
+
+
+        }
+
+        .buttonSection {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+            align-items: center;
+
+            .login {
+
+                line-height: 24px;
+                border-radius: 8px;
+                font-size: 16px;
+                padding: 8px 18px;
+                background-color: white;
+                border: 0px solid;
+                outline: none;
+                color: rgb(8, 11, 45);
+                margin-left: 430px;
+                cursor: pointer;
+
+                &:hover {
+                    color: blue;
+                    background-color: rgb(230, 230, 230);
+                }
+            }
+
+            .signup {
+                cursor: pointer;
+                background-color: rgb(0, 105, 255);
+                outline: none;
+                border: 0px solid;
+                line-height: 24px;
+                border-radius: 8px;
+                font-size: 16px;
+                padding: 8px 20px;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+
+    .bluebox {
+        background-color: rgb(0, 105, 255);
+        height: 650px;
+        position: relative;
+
+
+        .topleftimg {
+            position: absolute;
+            top: 100px;
+        }
+
+        .toprightimg {
+
+            position: absolute;
+            right: 0px;
+            top: 100px;
+
+        }
+
+        .bottomleftimg {
+            position: absolute;
+            bottom: 0px;
+            height: 100px;
+            width: 400px;
+
+        }
+
+        .bottomrightimg {
+            position: absolute;
+            right: 0px;
+            bottom: -5px;
+            display: flex;
+
+
+            .innerfirst {
+                position: absolute;
+
+                bottom: 0px;
+                left: -265px;
+            }
+
+            .innersecondimg {
+                img {
+                    height: 115px;
+
+                }
+
+
+
+            }
+
+
+
+
+        }
+
+        .innerText {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 100px;
+            color: rgb(255, 255, 255);
+            ;
+
+            span {
+                font-size: 6rem;
+                font-weight: bold;
+            }
+
+            p {
+                font-weight: bold;
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 30px;
+
+                .firstbtn {
+                    border: 0px solid;
+                    height: 50px;
+                    width: 180px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: aliceblue;
+                    background-color: #0d0da7;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #13136c;
+                    }
+                }
+
+                .secondbtn {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 210px;
+                    height: 50px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: bold;
+                    justify-content: center;
+                    border-radius: 10px;
+                    border: 0px solid;
+                    background-color: white;
+                    outline: none;
+                    color: black;
+                    gap: 10px;
+
+                    .text {
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+                    .img {
+                        display: flex;
+
+                        justify-content: center;
+                        align-items: center;
+                        height: 50px;
+
+
+
+                        img {
+                            border-radius: 25px;
+                        }
+                    }
+
+
+                }
+
+                .thirdbtn {
+                    border: 0px solid;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 230px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: black;
+                    cursor: pointer;
+                    background-color: white;
+
+                    .fa {
+                        padding-right: 10px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .customerSection {
+        width: 100%;
+        height: 100%;
+
+
+        .counterbox {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+
+            .custumer {
+                display: flex;
+                flex-direction: column;
+
+
+
+
+                h1 {
+                    margin-top: 100px;
+                    margin-bottom: 0px;
+                    font-size: 3rem;
+                    color: rgb(0, 105, 255);
+                }
+
+                h3 {
+                    margin: 0px;
+                    color: rgb(29, 73, 136);
+                }
+            }
+        }
+
+        .complexcitybox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                font-size: 2.5rem;
+                color: rgb(3, 27, 78);
+
+            }
+
+            p {
+                color: rgb(77, 91, 124);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0px;
+
+            }
+
+            span {
+                word-spacing: 15px;
+                color: rgb(0, 105, 255);
+                font-weight: bold;
+            }
+        }
+
+        .Customersbox {
+            position: relative;
+
+            // .firstimg {
+            //     width: 100%;
+            //     height: 261px;
+            //     position: absolute;
+
+            //     margin-top: 261px;
+            //     transform: rotate(3.142rad);
+            //     outline: none;
+
+            //     border: 0px solid;
+
+            // }
+
+            #secondimg {
+                margin-top: 150px;
+                width: 100%;
+                height: 600px;
+                background-size: auto;
+
+                outline: none;
+                border: 0px solid;
+
+
+            }
+
+            .Animatedsection {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    margin-top: 50px;
+                }
+
+                .firstanimatedbox {
+                    display: flex;
+                    gap: 20px;
+
+
+                    .imgs {
+                        img {
+                            border-radius: 10px;
+                            outline: none;
+                            border: 0px solid;
+                        }
+                    }
+
+                }
+            }
+
+            .pricesSection {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 800px;
+
+                .saverbox {
+                    width: 50%;
+                    border: 1px solid;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    h1 {
+                        font-size: 2.6rem;
+                        color: rgb(3, 27, 78);
+                    }
+
+                    span {
+                        color: rgb(0, 105, 255);
+                    }
+                }
+
+                .costSection {
+                    width: 50%;
+                    border: 1px solid;
+                    position: relative;
+
+
+                    .content {
+
+
+
+                        .firstimg {
+                            width: 293px;
+                            height: 370px;
+                            position: absolute;
+                            display: none;
+                        }
+
+                        .secondimg {
+                            width: 156px;
+                            height: 158px;
+                            position: absolute;
+                            top: 70%;
+                            left: 10%;
+                            display: none;
+                        }
+
+                        .thirdimg {
+                            height: 459px;
+                            width: 358px;
+                            float: right;
+                            display: none;
+                            position: absolute;
+                            top: 22%;
+                            left: 55%;
+
+                        }
+
+                        .machines {
+                            width: 528px;
+                            height: 773px;
+                            box-shadow: 0px 0px 5px #7171ac;
+
+                            display: flex;
+                            margin: auto;
+                            margin-top: 23px;
+                            border-radius: 24px;
+                            flex-direction: column;
+
+                            .littlebluebox {
+                                width: 100%;
+                                color: rgb(214, 220, 234);
+                                background-color: rgb(0, 105, 255);
+                                height: 300px;
+
+                                display: flex;
+                                border-top-left-radius: 24px;
+                                border-top-right-radius: 24px;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+
+                                h1 {
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .cpubtns {
+
+                                    display: flex;
+                                    gap: 20px;
+
+                                    .cpubutn {
+                                        padding: 12px 24px;
+
+                                        border-radius: 10px;
+                                        outline: none;
+                                        border: 0px solid;
+                                        background-color: rgb(0, 105, 255);
+                                        color: white;
+                                        font-size: 16px;
+
+                                        &:hover {
+                                            background-color: rgb(76, 126, 251);
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .prices {
+                                .memory {
+                                    padding: 10px;
+                                    background-color: rgb(239, 242, 251);
+                                    height: 40px;
+                                    margin: 40px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 10px;
+                                    color: rgb(143, 143, 143);
+                                }
+
+                                .memoryprice {
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: row;
+
+                                    margin: 30px;
+                                    outline: none;
+
+
+                                    border-top: 0px solid;
+                                    border-left: 0px solid;
+                                    border-right: 0px solid;
+
+                                    border-bottom: dotted;
+                                    border-color: rgb(169, 179, 202);
+                                    justify-content: space-between;
+
+                                    .textimg {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .journeySection {
+
+
+
+                height: 450px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                color: white;
+
+
+                .bluejourney {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    width: 93%;
+
+
+                    .journey {
+                        width: 33%;
+
+                        display: flex;
+                        height: 250px;
+                        flex-direction: column;
+                        text-align: right;
+                        justify-content: center;
+                        text-align: start;
+                        background-color: rgb(10, 10, 136);
+                        padding-left: 50px;
+                        border-top-left-radius: 24px;
+                        border-bottom-left-radius: 24px;
+                    }
+
+                    .imgsplace {
+                        width: 30%;
+
+
+
+                        background-color: rgb(10, 10, 136);
+                        height: 250px;
+                        border-top-right-radius: 24px;
+                        border-bottom-right-radius: 24px;
+
+                        img {
+                            padding-top: 67px;
+                            padding-left: 100px;
+                        }
+
+                    }
+                }
+
+
+
+            }
+
+            .globalSection {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .community {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 2.5rem;
+                        color: rgb(3, 27, 78);
+                    }
+
+                    p {
+                        color: rgb(91, 105, 135);
+                    }
+
+                    .p {
+                        margin-top: 0px;
+                    }
+
+                    span {
+                        color: #0069ff;
+                        font-weight: bold;
+                        display: flex;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
