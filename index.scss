@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: Inter, sans-serif;
-    ;
+
     overflow: auto;
 }
 
@@ -797,11 +797,43 @@ body {
                     border-color: white;
                     flex-direction: row;
 
-                    .company {
-                        width: 22%;
+                    .productinfo {
+                        display: flex;
+                        flex-direction: row;
+                        width: 44%;
+                        gap: 50px;
 
+                        .company {
+                            // padding: 10%;
+                            color: rgb(227, 232, 244);
+                        }
+
+
+                    }
+
+                    .secondproductinfo {
+                        display: flex;
+                        flex-direction: row;
+                        width: 44%;
+                        gap: 50px;
+
+                        .company {
+                            // padding: 10%;
+                            color: rgb(227, 232, 244);
+                        }
+
+
+
+                    }
+
+                    .company {
+                        // width: 22% !important;
+
+
+                        // margin-top: 50px;
                         color: rgb(227, 232, 244);
                     }
+
 
                 }
 
@@ -863,4 +895,446 @@ body {
 
 
 
-@media only screen and (max-width: 620px) {}
+@media only screen and (max-width: 800px) {
+    .container {
+        .topheader {
+            height: 0px;
+            border: 0px solid;
+            background-color: white;
+            display: none;
+
+            .paragraph {
+                display: none;
+            }
+        }
+
+        .belowheader {
+            width: 100%;
+            display: flex;
+            flex-direction: column !important;
+            padding-left: 0px;
+            align-items: flex-start;
+
+            .logoimg {
+                padding: 20px;
+                display: flex;
+                align-items: flex-start;
+
+            }
+
+            .MenuSection {
+                height: 100%;
+                background-color: white;
+                width: 100%;
+                padding-left: 0px;
+
+                .menu {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: white;
+                    padding: 20px;
+
+                    li {
+                        border: 1px solid;
+                        border-radius: 0px !important;
+                        border-top: 0px solid;
+                        border-left: 0px solid;
+                        border-right: 0px solid;
+                        padding: 22px !important;
+                        color: black !important;
+                        font-weight: bold;
+                        border-color: rgb(195, 199, 202);
+
+                    }
+
+
+                }
+            }
+
+            .buttonSection {
+                position: absolute;
+                top: 480px;
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: center;
+                width: 100%;
+
+                .login {
+
+                    position: absolute;
+                    top: 49px;
+                    margin-left: 0px;
+                    width: 100%;
+                    display: flex !important;
+                    flex-direction: row !important;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .signup {
+
+                    width: 100%;
+
+                    // display: flex !important;
+                    // flex-direction: row !important;
+                    // align-items: center;
+                }
+            }
+        }
+
+        .bluebox {
+            margin-top: 600px;
+
+
+            .innerText {
+                span {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .buttons {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 500px;
+                    width: 100%;
+
+                    .firstbtn,
+                    .secondbtn,
+                    .thirdbtn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            .topleftimg {
+                display: none !important;
+            }
+
+            .topleftimg {
+                img {
+                    display: none !important;
+                }
+            }
+
+            .toprightimg {
+                img {
+                    display: none !important;
+                }
+
+
+            }
+
+            .bottomrightimg {
+                display: none !important;
+            }
+
+            .bottomleftimg {
+                display: none;
+            }
+        }
+
+        .customerSection {
+
+            height: 100%;
+
+            .Customersbox {
+                width: 100%;
+
+                .pricesSection {
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .saverbox {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                    }
+
+                    .costSection {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                .globalSection {
+
+                    .community {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                .Languages {
+                    .languageKinds {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+
+                        .language {
+                            width: 100%;
+
+                            &:hover {
+                                width: 100%;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            img {
+                                width: 100%;
+                            }
+
+                            .aboutinfo {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                .journeySection {
+
+                    margin-top: 200px;
+                    width: 100%;
+
+                    .bluejourney {
+
+
+
+                        width: 100%;
+
+
+
+
+                        .journey {
+                            width: 63%;
+                        }
+
+                        .imgsplace {
+                            display: none;
+                            width: 0px;
+
+                            img {
+                                display: none;
+                            }
+                        }
+
+                    }
+                }
+
+                .buildingtodaybox {
+                    .todaybox {
+                        h4 {
+                            padding: 30px;
+                            margin-left: 50px;
+                        }
+                    }
+                }
+
+                .footer {
+                    .companyproducts {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 100%;
+
+                        .productinfo {
+                            display: flex;
+                            flex-direction: row;
+                            gap: 150px;
+                            padding: 0px;
+
+                            .company {
+                                padding: 0px;
+                            }
+                        }
+
+                        .secondproductinfo {
+                            display: none;
+                            // flex-direction: row;
+                            // gap: 150px;
+                            // padding: 0px;
+
+                            // .company {
+                            //     padding: 0px;
+                            // }
+                        }
+
+
+
+                        .comp {
+                            display: none;
+                        }
+                    }
+
+                }
+
+                .belowfooter {
+
+                    display: flex;
+                    flex-direction: column !important;
+                    justify-content: center;
+                    align-items: center !important;
+                    width: 100% !important;
+
+                    .minifotter {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center !important;
+                        width: 100% !important;
+                        margin-bottom: 20px;
+
+                        .imgege {
+                            padding-left: 25%;
+                        }
+
+                        h3 {
+                            width: 100%;
+
+
+                        }
+                    }
+                }
+            }
+
+            .counterbox {
+
+
+                .custemerfortwo {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .complexcitybox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 50px;
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container {
+        width: 414px;
+
+        .bluebox {
+            width: 414px;
+            height: 700px;
+
+            .innerText {
+
+                p {
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    width: 100%;
+                    font-size: 19px;
+                    padding-left: 55px;
+                }
+            }
+        }
+
+        .customerSection {
+
+
+
+
+
+            .counterbox {
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+                padding: 30px;
+
+                .custemerfortwo {
+                    display: flex;
+                    flex-direction: column;
+
+                    .custumer {
+                        h1 {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+
+            .complexcitybox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 50px;
+            }
+
+            .pricesSection {
+                width: 414px !important;
+
+                .costSection {
+                    .content {
+                        width: 414px;
+
+                        .machines {
+                            width: 414px !important;
+                            box-shadow: 0px 0px 0px white !important;
+
+                            .littlebluebox {
+                                width: 414px !important;
+                                border: 0px solid;
+                                outline: none;
+                                box-shadow: none;
+
+                                h1 {
+                                    font-size: 1.5rem;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .saverbox {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 2rem !important;
+                    }
+
+                    p {
+                        padding-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
