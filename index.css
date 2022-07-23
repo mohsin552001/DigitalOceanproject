@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   font-family: Inter, sans-serif;
+  overflow: auto;
 }
 
 .container .topheader {
@@ -390,10 +391,15 @@ body {
   position: relative;
 }
 
+.container .customerSection .Customersbox .firstimg {
+  width: 100%;
+  height: 64px;
+}
+
 .container .customerSection .Customersbox #secondimg {
   margin-top: 150px;
   width: 100%;
-  height: 600px;
+  height: 87px;
   background-size: auto;
   outline: none;
   border: 0px solid;
@@ -415,20 +421,49 @@ body {
           align-items: center;
 }
 
-.container .customerSection .Customersbox .Animatedsection h1 {
-  margin-top: 50px;
+.container .customerSection .Customersbox .Animatedsection .offbluebox {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(200, 223, 255, 0.6);
+  margin-top: 87px;
 }
 
-.container .customerSection .Customersbox .Animatedsection .firstanimatedbox {
+.container .customerSection .Customersbox .Animatedsection .offbluebox .headingHone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .headingHone h1 {
+  font-size: 2.5rem;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
 
-.container .customerSection .Customersbox .Animatedsection .firstanimatedbox .imgs img {
-  border-radius: 10px;
-  outline: none;
+.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox marquee img {
+  border-radius: 14px;
+  margin-left: 30px;
+  border: 0px solid;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox {
+  margin-top: 50px;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox marquee img {
+  border-radius: 14px;
+  margin-left: 30px;
   border: 0px solid;
 }
 
@@ -442,11 +477,11 @@ body {
           flex-direction: row;
   width: 100%;
   height: 800px;
+  margin-top: 600px;
 }
 
 .container .customerSection .Customersbox .pricesSection .saverbox {
   width: 50%;
-  border: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -473,7 +508,6 @@ body {
 
 .container .customerSection .Customersbox .pricesSection .costSection {
   width: 50%;
-  border: 1px solid;
   position: relative;
 }
 
@@ -734,5 +768,253 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+}
+
+.container .customerSection .Customersbox .Languages {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds .language img {
+  margin-top: 20px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds .language img:hover {
+  cursor: pointer;
+  width: 301px;
+  height: 151px;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds .language .aboutinfo {
+  padding: 20px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: 17px;
+  -webkit-box-shadow: 0px 0px 2px #a1a8b7;
+          box-shadow: 0px 0px 2px #a1a8b7;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds .language .aboutinfo span {
+  color: #8a96b5;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox {
+  position: relative;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .blueimg {
+  width: 100%;
+  height: 58px;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .todaybox {
+  width: 100%;
+  height: 400px;
+  background-color: #7bdeff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .todaybox h1 {
+  font-size: 2.5rem;
+  color: #031b4e;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .todaybox h4 {
+  color: #4d5b7c;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .todaybox button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: 0px solid;
+  font-size: 17px;
+  color: #081b4b;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container .customerSection .Customersbox .buildingtodaybox .highblueimg {
+  width: 100%;
+  height: 58px;
+  position: absolute;
+  top: 430px;
+}
+
+.container .customerSection .Customersbox .footer {
+  width: 100%;
+  height: 950px;
+  background-color: #0069ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .customerSection .Customersbox .footer .companyproducts {
+  width: 60%;
+  border: 1px solid;
+  height: 650px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: dashed;
+  border-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .customerSection .Customersbox .footer .companyproducts .company {
+  width: 22%;
+  color: #e3e8f4;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .minifotter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .minifotter h3 {
+  color: #e3e8f4;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .weblogos {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .weblogos .icons {
+  width: 40px;
+  height: 40px;
+  background-color: #3d87ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .weblogos .icons i {
+  color: #e3e8f4;
+}
+
+.container .customerSection .Customersbox .footer .belowimages {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 85px;
 }
 /*# sourceMappingURL=index.css.map */
