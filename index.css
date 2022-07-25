@@ -196,7 +196,7 @@ body {
 }
 
 .container .bluebox .innerText p {
-  font-weight: bold;
+  font-size: 17px;
 }
 
 .container .bluebox .innerText .buttons {
@@ -321,6 +321,17 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 100px;
+}
+
+.container .customerSection .counterbox .custemerfortwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   gap: 100px;
 }
 
@@ -452,9 +463,15 @@ body {
 }
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox marquee img {
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 14px;
   margin-left: 30px;
   border: 0px solid;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox {
@@ -515,7 +532,7 @@ body {
   width: 293px;
   height: 370px;
   position: absolute;
-  display: none;
+  top: 150px;
 }
 
 .container .customerSection .Customersbox .pricesSection .costSection .content .secondimg {
@@ -523,15 +540,13 @@ body {
   height: 158px;
   position: absolute;
   top: 70%;
-  left: 10%;
-  display: none;
+  left: 5%;
 }
 
 .container .customerSection .Customersbox .pricesSection .costSection .content .thirdimg {
   height: 459px;
   width: 358px;
   float: right;
-  display: none;
   position: absolute;
   top: 22%;
   left: 55%;
@@ -540,8 +555,9 @@ body {
 .container .customerSection .Customersbox .pricesSection .costSection .content .machines {
   width: 528px;
   height: 773px;
-  -webkit-box-shadow: 0px 0px 5px #7171ac;
-          box-shadow: 0px 0px 5px #7171ac;
+  -webkit-box-shadow: 0px 0px 3px #7171ac;
+          box-shadow: 0px 0px 3px #7171ac;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,6 +568,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: absolute;
+  top: 24px;
+  left: 150px;
 }
 
 .container .customerSection .Customersbox .pricesSection .costSection .content .machines .littlebluebox {
@@ -777,12 +796,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -790,9 +803,14 @@ body {
 }
 
 .container .customerSection .Customersbox .Languages .languageKinds {
-  width: 70%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
   display: flex;
 }
 
@@ -800,9 +818,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -834,7 +849,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin-right: 17px;
   -webkit-box-shadow: 0px 0px 2px #a1a8b7;
           box-shadow: 0px 0px 2px #a1a8b7;
   border-bottom-right-radius: 24px;
@@ -917,6 +931,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 100px;
 }
 
 .container .customerSection .Customersbox .footer .companyproducts {
@@ -1177,8 +1192,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 500px;
-    width: 100%;
+    margin-top: 570px;
+    width: 90%;
   }
   .container .bluebox .innerText .buttons .firstbtn,
   .container .bluebox .innerText .buttons .secondbtn,
@@ -1205,6 +1220,9 @@ body {
   }
   .container .bluebox .bottomrightimg {
     display: none !important;
+  }
+  .container .bluebox .bottomrightimg .innerfirst {
+    display: none;
   }
   .container .bluebox .bottomleftimg {
     display: none;
@@ -1248,6 +1266,31 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .container .customerSection .Customersbox .pricesSection .costSection .content .machines {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+  }
+  .container .customerSection .Customersbox .pricesSection .costSection .content .firstimg {
+    display: none;
+  }
+  .container .customerSection .Customersbox .pricesSection .costSection .content .secondimg {
+    display: none;
+  }
+  .container .customerSection .Customersbox .pricesSection .costSection .content .thirdimg {
+    display: none;
+  }
+  .container .customerSection .Customersbox .globalSection {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
   .container .customerSection .Customersbox .globalSection .community {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1258,6 +1301,9 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .container .customerSection .Customersbox .globalSection .community p {
+    padding: 10px;
   }
   .container .customerSection .Customersbox .Languages .languageKinds {
     display: -webkit-box;
@@ -1293,6 +1339,8 @@ body {
   }
   .container .customerSection .Customersbox .journeySection .bluejourney .journey {
     width: 63%;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
   }
   .container .customerSection .Customersbox .journeySection .bluejourney .imgsplace {
     display: none;
@@ -1304,6 +1352,9 @@ body {
   .container .customerSection .Customersbox .buildingtodaybox .todaybox h4 {
     padding: 30px;
     margin-left: 50px;
+  }
+  .container .customerSection .Customersbox .footer {
+    height: 100%;
   }
   .container .customerSection .Customersbox .footer .companyproducts {
     display: -webkit-box;
@@ -1335,7 +1386,7 @@ body {
   .container .customerSection .Customersbox .footer .companyproducts .productinfo .company {
     padding: 0px;
   }
-  .container .customerSection .Customersbox .footer .companyproducts .secondproductinfo {
+  .container .customerSection .Customersbox .footer .companyproducts .secondproductinfo .company {
     display: none;
   }
   .container .customerSection .Customersbox .footer .companyproducts .comp {
@@ -1380,6 +1431,9 @@ body {
   .container .customerSection .Customersbox .belowfooter .minifotter h3 {
     width: 100%;
   }
+  .container .customerSection .Customersbox .belowimages img {
+    display: none;
+  }
   .container .customerSection .counterbox .custemerfortwo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1388,6 +1442,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 0px;
   }
   .container .customerSection .complexcitybox {
     display: -webkit-box;
@@ -1410,12 +1465,23 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
-  .container {
-    width: 414px;
-  }
   .container .bluebox {
-    width: 414px;
+    width: 100%;
     height: 700px;
+    border: 1px solid;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .container .bluebox .innerText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container .bluebox .innerText p {
     display: -webkit-box !important;
@@ -1427,9 +1493,8 @@ body {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-    width: 100%;
-    font-size: 19px;
-    padding-left: 55px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .container .customerSection .counterbox {
     display: -webkit-box;
@@ -1467,18 +1532,18 @@ body {
     padding: 50px;
   }
   .container .customerSection .pricesSection {
-    width: 414px !important;
+    width: 100%;
   }
   .container .customerSection .pricesSection .costSection .content {
-    width: 414px;
+    width: 100%;
   }
   .container .customerSection .pricesSection .costSection .content .machines {
-    width: 414px !important;
+    width: 100%;
     -webkit-box-shadow: 0px 0px 0px white !important;
             box-shadow: 0px 0px 0px white !important;
   }
   .container .customerSection .pricesSection .costSection .content .machines .littlebluebox {
-    width: 414px !important;
+    width: 100%;
     border: 0px solid;
     outline: none;
     -webkit-box-shadow: none;
@@ -1503,6 +1568,73 @@ body {
   }
   .container .customerSection .pricesSection .saverbox p {
     padding-left: 50px;
+  }
+  .container .customerSection .footer {
+    height: 100%;
+  }
+  .container .customerSection .footer .companyproducts {
+    height: 100%;
+  }
+  .container .customerSection .footer .companyproducts .productinfo {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .customerSection .footer .belowfooter {
+    width: 100%;
+  }
+  .container .customerSection .footer .belowfooter .minifotter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .container .customerSection .footer .belowfooter .minifotter .imgege {
+    padding: 10px;
+  }
+  .container .customerSection .footer .belowfooter .weblogos {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .customerSection .footer .belowfooter .weblogos .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    gap: 0px;
+  }
+  .container .customerSection .footer .belowimages img {
+    display: none;
+  }
+  .container .customerSection .Languages .languageKinds .language .aboutinfo {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 /*# sourceMappingURL=index.css.map */

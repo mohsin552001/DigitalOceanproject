@@ -182,7 +182,7 @@ body {
             }
 
             p {
-                font-weight: bold;
+                font-size: 17px;
             }
 
             .buttons {
@@ -280,6 +280,12 @@ body {
             display: flex;
             justify-content: center;
             gap: 100px;
+
+            .custemerfortwo {
+                display: flex;
+                flex-direction: row;
+                gap: 100px;
+            }
 
             .custumer {
                 display: flex;
@@ -388,10 +394,14 @@ body {
 
                         marquee {
                             img {
-
+                                background-size: cover;
+                                background-repeat: no-repeat;
                                 border-radius: 14px;
                                 margin-left: 30px;
                                 border: 0px solid;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
                             }
                         }
 
@@ -455,7 +465,7 @@ body {
                             width: 293px;
                             height: 370px;
                             position: absolute;
-                            display: none;
+                            top: 150px;
                         }
 
                         .secondimg {
@@ -463,15 +473,15 @@ body {
                             height: 158px;
                             position: absolute;
                             top: 70%;
-                            left: 10%;
-                            display: none;
+                            left: 5%;
+
                         }
 
                         .thirdimg {
                             height: 459px;
                             width: 358px;
                             float: right;
-                            display: none;
+
                             position: absolute;
                             top: 22%;
                             left: 55%;
@@ -481,13 +491,16 @@ body {
                         .machines {
                             width: 528px;
                             height: 773px;
-                            box-shadow: 0px 0px 5px #7171ac;
-
+                            box-shadow: 0px 0px 3px #7171ac;
+                            background-color: white;
                             display: flex;
                             margin: auto;
                             margin-top: 23px;
                             border-radius: 24px;
                             flex-direction: column;
+                            position: absolute;
+                            top: 24px;
+                            left: 150px;
 
                             .littlebluebox {
                                 width: 100%;
@@ -669,22 +682,24 @@ body {
                 width: 100%;
                 height: 100%;
                 display: flex;
-                align-items: center;
-                justify-content: center;
+
                 flex-direction: column;
 
 
 
                 .languageKinds {
-                    width: 70%;
+                    width: 100%;
+                    justify-content: center;
 
+                    display: flex;
+                    gap: 20px;
                     // height: 10%;
                     display: flex;
 
                     .language {
 
                         display: flex;
-                        flex-grow: 1;
+
                         flex-direction: column;
 
 
@@ -708,7 +723,7 @@ body {
                             display: flex;
                             flex-direction: column;
                             flex-grow: 1;
-                            margin-right: 17px;
+
                             box-shadow: 0px 0px 2px rgb(161, 168, 183);
                             border-bottom-right-radius: 24px;
                             border-bottom-left-radius: 24px;
@@ -782,6 +797,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                padding-top: 100px;
 
                 .companyproducts {
 
@@ -897,6 +913,7 @@ body {
 
 @media only screen and (max-width: 800px) {
     .container {
+
         .topheader {
             height: 0px;
             border: 0px solid;
@@ -1004,8 +1021,9 @@ body {
                     position: absolute;
                     display: flex;
                     flex-direction: column;
-                    margin-top: 500px;
-                    width: 100%;
+                    margin-top: 570px;
+                    width: 90%;
+
 
                     .firstbtn,
                     .secondbtn,
@@ -1038,6 +1056,10 @@ body {
 
             .bottomrightimg {
                 display: none !important;
+
+                .innerfirst {
+                    display: none;
+                }
             }
 
             .bottomleftimg {
@@ -1069,15 +1091,48 @@ body {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+
+                        .content {
+                            .machines {
+                                left: 0px;
+                                top: 0px;
+                                width: 100%;
+                            }
+
+                            .firstimg {
+                                display: none;
+                            }
+
+                            .secondimg {
+                                display: none;
+                            }
+
+                            .thirdimg {
+                                display: none;
+                            }
+                        }
                     }
                 }
 
                 .globalSection {
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
 
                     .community {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+
+
+
+                        p {
+
+                            padding: 10px;
+
+                        }
+
+                        ;
                     }
                 }
 
@@ -1125,6 +1180,8 @@ body {
 
                         .journey {
                             width: 63%;
+                            border-top-right-radius: 24px;
+                            border-bottom-right-radius: 24px;
                         }
 
                         .imgsplace {
@@ -1149,6 +1206,8 @@ body {
                 }
 
                 .footer {
+                    height: 100%;
+
                     .companyproducts {
                         display: flex;
                         justify-content: center;
@@ -1168,7 +1227,10 @@ body {
                         }
 
                         .secondproductinfo {
-                            display: none;
+                            .company {
+                                display: none;
+                            }
+
                             // flex-direction: row;
                             // gap: 150px;
                             // padding: 0px;
@@ -1214,6 +1276,12 @@ body {
                         }
                     }
                 }
+
+                .belowimages {
+                    img {
+                        display: none;
+                    }
+                }
             }
 
             .counterbox {
@@ -1222,6 +1290,7 @@ body {
                 .custemerfortwo {
                     display: flex;
                     flex-direction: column;
+                    gap: 0px;
                 }
             }
 
@@ -1245,21 +1314,29 @@ body {
 
 @media only screen and (max-width: 414px) {
     .container {
-        width: 414px;
+
+
 
         .bluebox {
-            width: 414px;
+            width: 100%;
             height: 700px;
+            border: 1px solid;
+            box-sizing: border-box;
 
             .innerText {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
                 p {
                     display: flex !important;
                     justify-content: center !important;
                     align-items: center !important;
-                    width: 100%;
-                    font-size: 19px;
-                    padding-left: 55px;
+                    box-sizing: border-box;
+
+
+
                 }
             }
         }
@@ -1296,18 +1373,18 @@ body {
             }
 
             .pricesSection {
-                width: 414px !important;
+                width: 100%;
 
                 .costSection {
                     .content {
-                        width: 414px;
+                        width: 100%;
 
                         .machines {
-                            width: 414px !important;
+                            width: 100%;
                             box-shadow: 0px 0px 0px white !important;
 
                             .littlebluebox {
-                                width: 414px !important;
+                                width: 100%;
                                 border: 0px solid;
                                 outline: none;
                                 box-shadow: none;
@@ -1332,6 +1409,82 @@ body {
 
                     p {
                         padding-left: 50px;
+                    }
+                }
+            }
+
+            .footer {
+                height: 100%;
+
+
+                .companyproducts {
+                    height: 100%;
+
+
+                    .productinfo {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0px;
+                        padding: 0px;
+                        display: flex;
+                        justify-content: center;
+
+                        // .company {
+                        //     display: flex;
+                        //     flex-direction: column;
+                        // }
+
+                    }
+                }
+
+                .belowfooter {
+                    width: 100%;
+
+                    .minifotter {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+
+                        .imgege {
+                            padding: 10px;
+                        }
+
+
+                    }
+
+                    .weblogos {
+                        width: 100% !important;
+                        display: flex;
+                        gap: 0px;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icons {
+                            display: flex;
+                            width: 40px;
+                            gap: 0px;
+
+                        }
+                    }
+                }
+
+                .belowimages {
+                    img {
+                        display: none;
+                    }
+                }
+            }
+
+            .Languages {
+                .languageKinds {
+                    .language {
+                        // padding: 20px;
+
+                        .aboutinfo {
+                            box-sizing: border-box;
+                        }
                     }
                 }
             }
