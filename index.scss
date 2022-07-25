@@ -405,8 +405,8 @@ body {
                                 border-radius: 14px;
                                 margin-left: 30px;
                                 border: 0px solid;
-                                width: 100%;
-                                height: 100%;
+                                // width: 100%;
+                                // height: 100%;
                                 object-fit: contain;
                             }
                         }
@@ -1203,11 +1203,16 @@ body {
                 }
 
                 .buildingtodaybox {
+                    width: 100%;
+
                     .todaybox {
-                        h4 {
-                            padding: 30px;
-                            margin-left: 50px;
-                        }
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        //     h1 {
+                        //         display: flex;
+                        //     }
                     }
                 }
 
@@ -1336,10 +1341,7 @@ body {
                 align-items: center;
 
                 p {
-                    display: flex !important;
-                    justify-content: center !important;
-                    align-items: center !important;
-                    box-sizing: border-box;
+                    padding: 20px;
 
 
 
@@ -1349,7 +1351,32 @@ body {
 
         .customerSection {
 
+            .Customersbox {
+                .buildingtodaybox {
+                    .todaybox {
 
+
+                        h1 {
+                            padding: 30px;
+                        }
+
+                        h4 {
+                            padding: 20px;
+                        }
+                    }
+                }
+
+                .journeySection {
+                    width: 100%;
+
+                    .bluejourney {
+
+                        width: 100% !important;
+
+
+                    }
+                }
+            }
 
 
 
@@ -1486,7 +1513,7 @@ body {
             .Languages {
                 .languageKinds {
                     .language {
-                        // padding: 20px;
+
 
 
                         .aboutinfo {

@@ -467,8 +467,6 @@ body {
   border-radius: 14px;
   margin-left: 30px;
   border: 0px solid;
-  width: 100%;
-  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -1348,9 +1346,20 @@ body {
   .container .customerSection .Customersbox .journeySection .bluejourney .imgsplace img {
     display: none;
   }
-  .container .customerSection .Customersbox .buildingtodaybox .todaybox h4 {
-    padding: 30px;
-    margin-left: 50px;
+  .container .customerSection .Customersbox .buildingtodaybox {
+    width: 100%;
+  }
+  .container .customerSection .Customersbox .buildingtodaybox .todaybox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
   }
   .container .customerSection .Customersbox .footer {
     height: 100%;
@@ -1483,17 +1492,19 @@ body {
             align-items: center;
   }
   .container .bluebox .innerText p {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    padding: 20px;
+  }
+  .container .customerSection .Customersbox .buildingtodaybox .todaybox h1 {
+    padding: 30px;
+  }
+  .container .customerSection .Customersbox .buildingtodaybox .todaybox h4 {
+    padding: 20px;
+  }
+  .container .customerSection .Customersbox .journeySection {
+    width: 100%;
+  }
+  .container .customerSection .Customersbox .journeySection .bluejourney {
+    width: 100% !important;
   }
   .container .customerSection .counterbox {
     display: -webkit-box;
