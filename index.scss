@@ -190,7 +190,7 @@ body {
                 font-size: 6rem;
                 font-weight: bold;
 
-                font-family: "JetBrains Mono", monospace;
+
             }
 
             p {
@@ -1182,7 +1182,11 @@ body {
 
             .innerText {
                 span {
-                    font-size: 3rem;
+                    font-size: 48px;
+
+                    display: flex;
+
+
                 }
 
                 p {
@@ -1656,6 +1660,8 @@ body {
                         justify-content: center;
                         align-items: center;
                         width: 100%;
+
+                        flex-direction: column;
 
                         .imgege {
                             padding: 10px;
