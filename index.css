@@ -7,7 +7,7 @@ body {
 .container .topheader {
   width: 100%;
   height: 40px;
-  background-color: #0a0a79;
+  background-color: #081b4b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,6 +20,10 @@ body {
 
 .container .topheader .paragraph {
   padding-left: 14%;
+}
+
+.container .topheader .paragraph p {
+  font-size: 14px !important;
 }
 
 .container .topheader .unorderlist {
@@ -55,7 +59,7 @@ body {
 }
 
 .container .belowheader .logoimg {
-  padding-left: 255px;
+  padding-left: 240px;
 }
 
 .container .belowheader .MenuSection .menu {
@@ -147,7 +151,6 @@ body {
 
 .container .bluebox .bottomleftimg {
   position: absolute;
-  bottom: 0px;
   height: 100px;
   width: 400px;
 }
@@ -185,13 +188,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 100px;
+  padding-top: 50px;
   color: white;
 }
 
 .container .bluebox .innerText span {
   font-size: 6rem;
   font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .container .bluebox .innerText p {
@@ -199,6 +203,7 @@ body {
 }
 
 .container .bluebox .innerText .buttons {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,7 +358,7 @@ body {
 
 .container .customerSection .counterbox .custumer h3 {
   margin: 0px;
-  color: #1d4988;
+  color: #4d5b7c;
 }
 
 .container .customerSection .complexcitybox {
@@ -375,6 +380,7 @@ body {
 .container .customerSection .complexcitybox h1 {
   font-size: 2.5rem;
   color: #031b4e;
+  margin-top: 100px;
 }
 
 .container .customerSection .complexcitybox p {
@@ -395,6 +401,13 @@ body {
   word-spacing: 15px;
   color: #0069ff;
   font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
+  cursor: pointer;
+}
+
+.container .customerSection .complexcitybox span:hover i {
+  padding-left: 5px;
+  cursor: pointer;
 }
 
 .container .customerSection .Customersbox {
@@ -429,6 +442,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox {
@@ -452,6 +466,7 @@ body {
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox .headingHone h1 {
   font-size: 2.5rem;
+  color: #031b4e;
 }
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox {
@@ -459,26 +474,143 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 2404px;
 }
 
-.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox marquee img {
-  background-size: cover;
+.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox .animationbox {
+  -webkit-animation: kia 31s;
+          animation: kia 31s;
+  gap: 20px;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  height: 104px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox .animationbox .movedimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 192px !important;
+  height: 104px;
+  background-size: 95%;
+  background-color: white;
+  background-position: center;
   background-repeat: no-repeat;
-  border-radius: 14px;
-  margin-left: 30px;
-  border: 0px solid;
-  -o-object-fit: contain;
-     object-fit: contain;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .firstanimatedbox .animationbox .movedimg img {
+  list-style: none;
+  outline: none;
+}
+
+@-webkit-keyframes kia {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes kia {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 100%;
+  }
 }
 
 .container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 2404px;
 }
 
-.container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox marquee img {
-  border-radius: 14px;
-  margin-left: 30px;
-  border: 0px solid;
+.container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox .secondanimationbox {
+  height: 104px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-animation: rightside 31s;
+          animation: rightside 31s;
+  gap: 20px;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  margin-top: 100px;
+}
+
+.container .customerSection .Customersbox .Animatedsection .offbluebox .secondanimatedbox .secondanimationbox .movedimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 192px !important;
+  height: 104px;
+  background-size: 95%;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@-webkit-keyframes rightside {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes rightside {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100%;
+  }
 }
 
 .container .customerSection .Customersbox .pricesSection {
@@ -517,7 +649,21 @@ body {
 }
 
 .container .customerSection .Customersbox .pricesSection .saverbox span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: #0069ff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.container .customerSection .Customersbox .pricesSection .saverbox span i {
+  padding-left: 20px;
 }
 
 .container .customerSection .Customersbox .pricesSection .costSection {
@@ -552,8 +698,8 @@ body {
 .container .customerSection .Customersbox .pricesSection .costSection .content .machines {
   width: 528px;
   height: 773px;
-  -webkit-box-shadow: 0px 0px 3px #7171ac;
-          box-shadow: 0px 0px 3px #7171ac;
+  -webkit-box-shadow: 0px 3px 8px gainsboro;
+          box-shadow: 0px 3px 8px gainsboro;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -670,6 +816,10 @@ body {
   gap: 15px;
 }
 
+.container .customerSection .Customersbox .pricesSection .costSection .content .machines .prices .borderd {
+  border: 0px solid !important;
+}
+
 .container .customerSection .Customersbox .journeySection {
   height: 450px;
   display: -webkit-box;
@@ -699,15 +849,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 93%;
+  width: 61%;
+  height: 250px;
+  border-radius: 24px;
+  background-color: #0a0a88;
+  margin-top: 150px;
 }
 
 .container .customerSection .Customersbox .journeySection .bluejourney .journey {
-  width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -717,15 +872,21 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: start;
-  background-color: #0a0a88;
   padding-left: 50px;
-  border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
+}
+
+.container .customerSection .Customersbox .journeySection .bluejourney .journey span i {
+  padding-left: 20px;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .container .customerSection .Customersbox .journeySection .bluejourney .imgsplace {
-  width: 30%;
-  background-color: #0a0a88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   height: 250px;
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
@@ -733,7 +894,7 @@ body {
 
 .container .customerSection .Customersbox .journeySection .bluejourney .imgsplace img {
   padding-top: 67px;
-  padding-left: 100px;
+  padding-left: 165px;
 }
 
 .container .customerSection .Customersbox .globalSection {
@@ -787,9 +948,21 @@ body {
 }
 
 .container .customerSection .Customersbox .Languages {
-  margin-top: 100px;
-  width: 100%;
-  height: 100%;
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.container .customerSection .Customersbox .Languages .languageKinds {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -797,18 +970,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.container .customerSection .Customersbox .Languages .languageKinds {
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   gap: 20px;
-  display: flex;
 }
 
 .container .customerSection .Customersbox .Languages .languageKinds .language {
@@ -887,6 +1049,7 @@ body {
 .container .customerSection .Customersbox .buildingtodaybox .todaybox h1 {
   font-size: 2.5rem;
   color: #031b4e;
+  margin-bottom: 0px;
 }
 
 .container .customerSection .Customersbox .buildingtodaybox .todaybox h4 {
@@ -935,15 +1098,10 @@ body {
   width: 60%;
   border: 1px solid;
   height: 650px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 3px solid;
+  border: 0px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-bottom: dashed;
-  border-color: white;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -986,6 +1144,21 @@ body {
   color: #e3e8f4;
 }
 
+.container .customerSection .Customersbox .footer .dashedimg {
+  width: 60%;
+  height: 10px;
+}
+
+.container .customerSection .Customersbox .footer .dashedimg .backgroundimg {
+  background-position: center;
+  height: 5px;
+  background-size: 1%;
+}
+
+.container .customerSection .Customersbox .footer .dashedimg .backgroundimg img {
+  height: 10px;
+}
+
 .container .customerSection .Customersbox .footer .belowfooter {
   width: 60%;
   display: -webkit-box;
@@ -1020,6 +1193,19 @@ body {
   color: #e3e8f4;
 }
 
+.container .customerSection .Customersbox .footer .belowfooter .minifotter .imgege {
+  width: 40px;
+  height: 40px;
+}
+
+.container .customerSection .Customersbox .footer .belowfooter .minifotter .imgege .img {
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container .customerSection .Customersbox .footer .belowfooter .weblogos {
   width: 50%;
   display: -webkit-box;
@@ -1035,6 +1221,7 @@ body {
   width: 40px;
   height: 40px;
   background-color: #3d87ee;
+  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1229,6 +1416,7 @@ body {
   }
   .container .customerSection .Customersbox {
     width: 100%;
+    background-color: #f9fafe;
   }
   .container .customerSection .Customersbox .pricesSection {
     display: -webkit-box;
@@ -1302,6 +1490,15 @@ body {
   .container .customerSection .Customersbox .globalSection .community p {
     padding: 10px;
   }
+  .container .customerSection .Customersbox .Languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .container .customerSection .Customersbox .Languages .languageKinds {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1314,6 +1511,13 @@ body {
   }
   .container .customerSection .Customersbox .Languages .languageKinds .language {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .container .customerSection .Customersbox .Languages .languageKinds .language:hover {
     width: 100%;
@@ -1322,9 +1526,6 @@ body {
     width: 100%;
   }
   .container .customerSection .Customersbox .Languages .languageKinds .language img {
-    width: 100%;
-  }
-  .container .customerSection .Customersbox .Languages .languageKinds .language .aboutinfo {
     width: 100%;
   }
   .container .customerSection .Customersbox .journeySection {
@@ -1388,7 +1589,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 150px;
     padding: 0px;
   }
   .container .customerSection .Customersbox .footer .companyproducts .productinfo .company {
